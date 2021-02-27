@@ -101,7 +101,8 @@ export const fieldReduser = (state = initState(), action) => {
             return state
     }
 }
-'''
+```
+
 # Experience
 # Education
 In 2019 I graduated from the Faculty of Physics of the Belarusian State University with a degree in physics of nanomaterials and nanotechnologies.
