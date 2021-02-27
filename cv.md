@@ -24,7 +24,6 @@ const initState = () => {
     for (let i=0; i<initialState.XDimension; i++) {
         arr[i] = new Array(initialState.YDimension);
     }
-    
     console.log(initialState.YDimension)
     console.log(arr)
     for (let i=0; i<initialState.XDimension; i++) {
@@ -104,7 +103,7 @@ export const fieldReduser = (state = initState(), action) => {
 }
 '''
 # Experience
-...
+# Education
 In 2019 I graduated from the Faculty of Physics of the Belarusian State University with a degree in physics of nanomaterials and nanotechnologies.
 # Current English 
 A1
