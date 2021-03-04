@@ -1,2 +1,2 @@
 https://yayhen.github.io/rsschool-cv/cv
-https://yayhen.github.io/rsschool-cv-html/index.html
+https://your-github-account.github.io/rsschool-cv/
