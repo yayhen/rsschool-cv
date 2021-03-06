@@ -43,25 +43,24 @@
             </h1>
             <pre>
                 <code>
-                    const initState = () => {
-                        let arr = [];
-                        for (let i=0; i<initialState.XDimension; i++) {<br>
-                            arr[i] = new Array(initialState.YDimension);
-                        }
-                        console.log(initialState.YDimension)
-                        console.log(arr);
-                        for (let i=0; i<initialState.XDimension; i++) {<br>
-                            for (let j=0; j < initialState.YDimension; j++) {<br>
-                                arr[i][j] = 0;
-                            }
-                        }
-                        
-                        return {
-                            XDimension: initialState.XDimension,
-                            YDimension: initialState.YDimension,
-                            mapCondition: arr
-                        }
-                    }
+const initState = () => {
+    let arr = [];
+    for (let i=0; i<initialState.XDimension; i++) {<br>
+        arr[i] = new Array(initialState.YDimension);
+    }
+    console.log(initialState.YDimension)
+    console.log(arr);
+    for (let i=0; i<initialState.XDimension; i++) {<br>
+        for (let j=0; j < initialState.YDimension; j++) {
+            arr[i][j] = 0;
+        }
+    }
+    return {
+        XDimension: initialState.XDimension,
+        YDimension: initialState.YDimension,
+        mapCondition: arr
+    }
+}
                 </code>
             </pre>
             
