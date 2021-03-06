@@ -6,3 +6,8 @@ footer {
     text-align: center;
     background-color: burlywood;
 }
+
+pre {
+    text-align: left;
+    margin-left: 20vw;
+}
