@@ -1,69 +1,73 @@
-
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" href=".\styles\style.css">
+        <link rel="stylesheet" href="./styles/style.css">
         <title>
             Yauhen Papok
         </title>
     </head>
     <body>
         <header>
-
-        </header>
-        <main>
-            <img src=".\src\images\avatar.jpg" alt="glad">
             <h1>
                 Name and surname
             </h1>
             <p>
                 Papok Yayhen
             </p>
-            <h1>
-                Email
-            </h1>
-            <p>
-                mlpoknwow@gmail.com
-            </p>
-            <h1>
+        </header>
+        <main>
+            <img src="./src/images/avatar.jpg" alt="image">
+            <h2>
+                Contacts
+            </h2>
+            <ul>
+                <li>mlpoknwow@gmail.com</li>
+            </ul>
+            <h3>
                 About me
-            </h1>
+            </h3>
             <p>
                 I was born on April 23, 1993.
             </p>
-            <h1>
+            <h4>
                 Skills
-            </h1>
-            <p>
-                A basic level of HTML, CSS, Javascript. I can work a little with React, Reedux.
-            </p>
-            <h1>
+            </h4>
+            <ul>
+                <li>A basic level of <mark>HTML</mark></li>
+                <li>A basic level of <mark>CSS</mark></li>
+                <li><mark>Javascript</mark></li>
+                <li>I can work a little with <mark>React</mark>, <mark>Redux</mark></li>
+            </ul>
+            <h2>
                 Code examples
-            </h1>
-            <pre>
-                <code>
-const initState = () => {
-    let arr = [];
-    for (let i=0; i<initialState.XDimension; i++) {<br>
-        arr[i] = new Array(initialState.YDimension);
-    }
-    console.log(initialState.YDimension)
-    console.log(arr);
-    for (let i=0; i<initialState.XDimension; i++) {<br>
-        for (let j=0; j < initialState.YDimension; j++) {<br>
-            arr[i][j] = 0;
-        }
-    }
-    return {
-        XDimension: initialState.XDimension,
-        YDimension: initialState.YDimension,
-        mapCondition: arr
-    }
-}
-                </code>
-            </pre>
+            </h2>
+            <details>
+                <summary>
+                    Click to view code
+                </summary>
             
+                <pre><code>
+                const initState = () => {
+                    let arr = [];
+                    for (let i=0; i &lt; initialState.XDimension; i++) {<br>
+                        arr[i] = new Array(initialState.YDimension);
+                    }
+                    console.log(initialState.YDimension)
+                    console.log(arr);
+                    for (let i=0; i &lt; initialState.XDimension; i++) {<br>
+                        for (let j=0; j &lt; initialState.YDimension; j++) {
+                            arr[i][j] = 0;
+                        }
+                    }
+                    return {
+                        XDimension: initialState.XDimension,
+                        YDimension: initialState.YDimension,
+                        mapCondition: arr
+                    }
+                }
+                </code></pre>
+            </details>
+
             <h1>
                 Experience
             </h1>
@@ -76,19 +80,18 @@ const initState = () => {
             <p>
                 In 2019 I graduated from the Faculty of Physics of the Belarusian State University with a degree in physics of nanomaterials and nanotechnologies.
             </p>
-            <h1>
+            <h5>
                 Current English
-            </h1>
+            </h5>
             <p>
                 A1
             </p>      
-        </body>
         </main>
         <footer>
             <a href="https://github.com/yayhen">Link to my GitHub</a>
             <a href="https://rs.school">
-                <img src="https://rs.school/images/rs_school_js.svg" alt="RS-school" height=50 weight=50>
+                <img src="https://rs.school/images/rs_school_js.svg" alt="RS-school" height=50 width=100>
             </a>
         </footer>
-
+        </body>
 </html>
